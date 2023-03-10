@@ -99,3 +99,21 @@ body {
     color: whitesmoke;
     font-size: 0.9rem;
 }
+
+@media (max-width: 500px) {
+    #hero{
+        height: 325px;
+    }
+
+    #hero h2{
+        font-size: 1.2rem;
+    }
+    
+    .bars h3{
+        font-size: 1rem;
+    }
+    
+    .bars p{
+        font-size: 0.7rem;
+    }
+}
